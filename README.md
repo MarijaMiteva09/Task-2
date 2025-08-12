@@ -1,49 +1,45 @@
-ReverseTextApi
+# ReverseTextApi
+
 A simple .NET 6 Web API that reverses a text string sent in a POST request.
 
-Features
-POST /api/reverse endpoint
+## Features
 
-Accepts JSON { "text": "hello world" }
+- POST `/api/reverse` endpoint  
+- Accepts JSON `{ "text": "hello world" }`  
+- Returns JSON `{ "reversedText": "dlrow olleh" }`  
+- Validates input and returns HTTP 400 with error message if text is missing or empty  
+- Includes unit tests for reversal logic
 
-Returns JSON { "reversedText": "dlrow olleh" }
+## Requirements
 
-Validates input and returns HTTP 400 with error message if text is missing or empty
+- [.NET 6 SDK or later](https://dotnet.microsoft.com/download)  
+- (Optional) Postman, curl, or any HTTP client for testing the API
 
-Includes unit tests for reversal logic
+## Setup & Run
 
-Requirements
-.NET 6 SDK or later
+1. Clone the repository  
+2. Restore dependencies and run the API:
 
-(Optional) Postman, curl, or any HTTP client for testing the API
-
-Setup & Run
-Clone the repository
-
-Restore dependencies and run the API:
-
+```bash
 dotnet restore
 dotnet run
+
 The API will be available at:
 https://localhost:5001/api/reverse
 
 Usage
-Send a POST request with JSON body:
-
+Request:
 {
   "text": "hello world"
 }
-Example response:
-
+Response:
 {
   "reversedText": "dlrow olleh"
 }
-If the text property is missing, empty, or null, the API responds with HTTP 400:
-
+Error Example (HTTP 400):
 {
   "error": "Text cannot be empty."
 }
-
 Testing
-Run unit tests using:
+Run unit tests with:
 dotnet test
