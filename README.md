@@ -25,7 +25,7 @@ dotnet restore
 dotnet run
 
 The API will be available at:
-https://localhost:5001/api/reverse
+https://localhost:5102/api/reverse
 
 Usage
 Request:
