@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseTextApi", "ReverseTextApi\ReverseTextApi.csproj", "{724B4AE0-AB2B-6763-3D7F-C912E71C498C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724B4AE0-AB2B-6763-3D7F-C912E71C498C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724B4AE0-AB2B-6763-3D7F-C912E71C498C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724B4AE0-AB2B-6763-3D7F-C912E71C498C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724B4AE0-AB2B-6763-3D7F-C912E71C498C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BCA7A6D-E60E-4437-BFA1-DC4EB8E9A3EA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "o2DQjQT7v4Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Blaze\\Task 2\\ReverseTextApi\\ReverseTextApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Blaze\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\Blaze\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
